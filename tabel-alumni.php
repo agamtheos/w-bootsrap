@@ -15,14 +15,30 @@
         <tr>
             <th>Nama</th>
             <th>Jenis Kelamin</th>
-            <th>Email</th>
             <th>Alamat</th>
             <th>Email</th>
             <th>Warga Negara</th>
             <th>Status Perkawinan</th>
-            <th>Status Mahasiswa</th>
-        
+            <th>Status Mahasiswa</th>      
         </tr>
+        <?php
+        include "config/db_connect.php";
+        $sql = "SELECT * FROM alumni";
+        $result = mysqli_query($conn, $sql);
+        
+        while($row = mysqli_fetch_array($result)){
+            echo "<tr>
+            <td>".$row['nama']."</td>
+            <td>".$row['jenkel']."</td>
+            <td>".$row['alamat_skrg']."</td>
+            <td>".$row['email']."</td>
+            <td>".$row['wn']."</td>
+            <td>".$row['statusMarital']."</td>
+            <td>".$row['flag']."</td>
+            </tr>";
+        }
+
+        ?>
     
     </table>
 
