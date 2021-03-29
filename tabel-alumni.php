@@ -1,3 +1,5 @@
+<?php include "templates/header.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +12,12 @@
   <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-  <title>Document</title>
+  <script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+    } );
+  </script>
+  <title>Data Alumni</title>
 </head>
 <body>
 
@@ -62,11 +69,8 @@
         
         </table>
     </div>
-<script>
-    $(document).ready(function() {
-    $('#example').DataTable();
-    } );
-</script>
 
+
+<?php include "templates/footer.php"; ?>
 </body>
 </html>

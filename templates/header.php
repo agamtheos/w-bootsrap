@@ -19,9 +19,10 @@
   <body class="grey lighten-4">
     <nav class="white z-depth-0">
         <div class="container">
-            <a href="index.php" class="brand-logo brand-text">Data Perusahaan</a>
+            <a href="index.php" class="brand-logo brand-text">Home</a>
             <ul id="navmobile" class="right hide-on-small-and-down">
                 <li><a href="add_perusahaan.php" class="btn brand z-depth-0">Isi Data</a></li>
             </ul>
         </div>
     </nav>
+  
