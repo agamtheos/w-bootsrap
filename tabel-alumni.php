@@ -1,6 +1,5 @@
-<?php include "templates/header.php";?>
-
 <!DOCTYPE html>
+<?php include "templates/header.php";?>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -32,6 +31,7 @@
                     <th>Email</th>
                     <th>Warga Negara</th>
                     <th>Status Perkawinan</th>
+                    <th>IPK</th>
                     <th>Status Mahasiswa</th>      
                 </tr>
             </thead>
@@ -60,6 +60,7 @@
                     <td>".$row['email']."</td>
                     <td>".$row['wn']."</td>
                     <td>".$row['statusMarital']."</td>
+                    <td>".$row['ipk']."</td>
                     <td>".$row['flag']."</td>
                     </tr>";
                 }

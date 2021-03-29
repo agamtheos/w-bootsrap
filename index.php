@@ -26,7 +26,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
  <?php include('templates/header.php'); ?>
 
  <h4 class="center grey-text">List perusahaan</h4>

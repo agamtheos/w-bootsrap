@@ -8,14 +8,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
   </head>
   <body id="page-top">
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary bg-gradient fixed-top" id="mainNav">
     <div class="container">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#page-top">Perusahan</a>
+      <a class="navbar-brand" href="#page-top">Perusahaan</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,8 +49,7 @@
     </div>
     </div>
   </nav>
-     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
 
     <!-- Optional JavaScript; choose one of the two! -->
 
