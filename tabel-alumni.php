@@ -15,15 +15,13 @@
     $(document).ready(function() {
     $('#example').DataTable();
     } );
-  </script>
+  </script>  
   <title>Data Alumni</title>
 </head>
 <body>
-
     <div class="container">
-        <table id="example" class="table table-striped">
+        <table id="example" class="table table-striped">        
             <thead>
-                <tr>
                     <th>Nama</th>
                     <th>Jenis Kelamin</th>
                     <th>Alamat</th>
@@ -32,15 +30,12 @@
                     <th>Status Perkawinan</th>
                     <th>IPK</th>
                     <th>Status Mahasiswa</th>      
-                </tr>
             </thead>
             <tbody>
                 <?php
-                include "config/db_connect.php";
-                
+                include "config/db_connect.php";                
                 $sql = "SELECT * FROM alumni";
-                $result = mysqli_query($conn, $sql);
-                
+                $result = mysqli_query($conn, $sql);                
                 while($row = mysqli_fetch_array($result)){
                     if($row['flag'] == 0){
                         $row['flag'] = "Tidak Aktif";
@@ -66,7 +61,7 @@
                 ?>
             </tbody> 
         </table>
-    </div>
+    </div>    
 <?php include "templates/footer.php"; ?>
 </body>
 </html>
