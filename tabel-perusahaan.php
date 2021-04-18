@@ -1,3 +1,11 @@
+<?php 
+		$s_flag="";
+        $s_keyword="";
+        if (isset($_POST['search'])) {
+            $s_flag = $_POST['s_jurusan'];
+            $s_keyword = $_POST['s_keyword'];
+        }
+?>
 <!DOCTYPE html>
 <?php include "templates/nav.php"; ?>
 <html lang="en">
@@ -14,14 +22,6 @@
 <body>
 <br>
 <div class="container-fluid">
-	<?php 
-		$s_flag="";
-        $s_keyword="";
-        if (isset($_POST['search'])) {
-            $s_flag = $_POST['s_jurusan'];
-            $s_keyword = $_POST['s_keyword'];
-        }
-	?>
 	<form method="POST" action="">
         <div class="row mb-3">
 		    <div class="col-sm-12"><h4>Cari</h4></div>
