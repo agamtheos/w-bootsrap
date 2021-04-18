@@ -26,36 +26,50 @@
 <!DOCTYPE html>
 <html>
 <body>
- <?php include('templates/header.php'); ?>
+ <?php include('templates/nav.php'); ?>
 
- <h4 class="center grey-text">List perusahaan</h4>
+ <h4 class="center black-text">Selamat Datang</h4>
+ 
 
- <div class="container">
-    <div class="index">
-    
-        <?php foreach($perusahaans as $perusahaan): ?>
-              
+    <div class="container">
+        <class="index">
+        
+                
 
-            <div class="col s7 md3">
-                <div class="card z-depth-0">
-                    <div class="card-content center">
-                        <h5 class="center blue-text"><?php echo htmlspecialchars($perusahaan['namaPerush']); ?></h5>
-                        <div class="left-align"><?php echo $extras[0]; echo htmlspecialchars($perusahaan['alamatPerush']); ?></div>
-                        <div class="left-align"><?php echo $extras[1]; echo htmlspecialchars($perusahaan['telpFaxPerush']); ?></div>
-                        <div class="left-align"><?php echo $extras[2]; echo htmlspecialchars($perusahaan['emailPerush']); ?></div>
-                        <div class="left-align"><?php echo $extras[3]; echo htmlspecialchars($perusahaan['tentangPerush']); ?></div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title-center">Alumni</h5>
+                                <p class="card-text">Untuk melihat daftar alumni</p>
+                                <a href="tabel-alumni.php" class="btn btn-primary">Alumni</a>
+                            </div>
+                        </div>
                     </div>
-                        <div class="card-action right-align">
-                            <a class="brand-text" href="details.php?id=<?php echo $perusahaan['idPerush']?>">info selengkapnya</a>
-                        </div>  
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title-center">Lowongan</h5>
+                                <p class="card-text">Untuk Mencari Lowongan</p>
+                                <a href="#" class="btn btn-primary">Lowongan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title-center">Perusahaan</h5>
+                                <p class="card-text">Untuk melihat daftar Perusahaan</p>
+                                <a href="tabel-perusahaan.php" class="btn btn-primary">Perusahaan</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            
 
 
-        <?php  endforeach; ?>
-
+        </class=>
     </div>
- </div>
 
  <?php include('templates/footer.php'); ?>
 

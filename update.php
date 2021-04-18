@@ -124,7 +124,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- <?php include('templates/header.php'); ?>
+ <?php include('templates/nav.php'); ?>
  <section class="container grey-text">
     <h4 class="center">Isi Data Anda</h4>
     <form class="white" action="update.php" method="POST">

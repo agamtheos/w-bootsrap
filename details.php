@@ -33,7 +33,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php include('templates/header.php'); ?>
+  <?php include('templates/nav.php'); ?>
 
   <div class="container center">
     <?php if($perusahaan): ?>
